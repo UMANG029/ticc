@@ -1,0 +1,109 @@
+#id{
+    color: blue;
+    position: relative;
+    left: 24vmin;
+    font-size: 8vmin;
+    
+    }
+    .boxx{
+        background-color: blue;
+        height: 18vmin;
+    width: 18vmin;
+    
+    margin: 1.4%;
+    border-radius: 2vmin;
+    font-size: 8vmin;
+    color: brown;
+    }
+    .box{
+    height: 18vmin;
+    width: 18vmin;
+    background-color: rgb(254, 252, 250);
+    margin: 1.4%;
+    border-radius: 2vmin;
+    font-size: 8vmin;
+    color: brown;
+    }
+    .game{
+    height: 70vmin;
+    width: 70vmin;
+    display: flex;
+    flex-wrap:wrap;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243, 252, 115);
+    }
+    .container{
+        position: relative;
+        left: 16vmin;
+       
+        
+    }
+    .reset{
+        height: 17vmin;
+        width: 23vmin;
+        position: relative;
+        left: 70vmin;
+        top: 2vmin;
+        background-color: rgb(191, 234, 37);
+        color: black;
+        font-size: 6vmin;
+        text-decoration: none;
+    }
+    
+    .winner{
+        height: 10vmin;
+       
+        position: relative;
+        left: vmin;
+      top: 95vmin;
+        font-size: 8vmin;
+        color: rgb(233, 8, 8);
+        
+    }
+    .yes{
+    background-color:orange;
+    }
+    
+    
+    
+    .try{
+        
+    
+    }
+    
+    
+    .circle{
+    height:15vmin;
+    width: 15vmin;
+    margin: 2vmin;
+    border-radius: 50%;
+    
+    position: absolute;
+    top: 14vmin;
+    left: 1vmin;
+    animation: blink 0.2s infinite;
+    }
+    .two{
+    left: 85vmin;
+    height:15vmin;
+    width: 15vmin;
+    margin: 2vmin;
+    border-radius: 50%;
+    position: absolute;
+    top: 14vmin;
+    
+    animation: blink 0.2s infinite;
+    }
+    @keyframes blink{
+    from{
+    background-color: rgb(255, 0, 0);
+    
+    }
+    to{
+    background-color: rgb(35, 211, 211);
+    
+    }
+    
+    }
